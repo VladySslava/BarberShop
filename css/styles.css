@@ -1,0 +1,213 @@
+:root {
+    --main-color: #FFFFFF;
+    --second-color-text: rgba(157, 164, 189, 0.6);
+    --third-color-text: #9DA4BD;
+    --color-text: #303030;
+    --p-color:#555555;
+    --accent-color: #FF6C00;
+    --first-bg-color: #F7F7F7;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid var(--accent-color);
+    border-radius: 25px;
+    background: transparent;
+}
+
+
+/* -------------------------------------------------------------HEADER---------------------------------------------------------------------------- */
+
+.header-link,
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.1em;
+    color: var(--main-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+
+/* change color  */
+.header {
+    background-color: #000;
+}
+
+.header-btn {
+    color: var(--main-color);
+
+}
+
+/* ------------------------------------------------------- -------HERO----------------------------------------------------------------------------- */
+
+.hero-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--second-color-text);
+}
+
+.hero-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 72px;
+    line-height: calc(85 / 72);
+    letter-spacing: 0.05em;
+}
+
+.hero-bot-text {
+    font-size: 18px;
+    line-height: 1,67;
+    letter-spacing: 0.02em;
+    color: var(--third-color-text);
+}
+
+.about-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text);
+}
+
+.about-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49 /42);
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+}
+
+.about-text-one {
+    font-size: 18px;
+    line-height: 1,67;
+    letter-spacing: 0.02em;
+    color: var(--p-color);
+}
+
+.about-text-two {
+    font-size: 14px;
+    line-height: 1,86;
+    letter-spacing: 0.02em;
+    color: var(--p-color);
+}
+
+.about-btn {
+    color: var(--color-text);
+}
+
+.prace-master {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--second-color-text);
+}
+
+.prace-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49 / 42);
+    letter-spacing: 0.05em;
+    color: var(--main-color);
+}
+
+/* change color  */
+.prace-section {
+    background-color: rgb(26, 15, 46);
+}
+
+.prace-list {
+    font-size: 18px;
+    line-height: 1,67;
+    letter-spacing: 0.02em;
+    color: var(--third-color-text);
+}
+
+.prices-btn {
+    color: var(--main-color);
+}
+
+.benefits-item-count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(57 / 42);
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+}
+
+.benefits-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    text-align: center;
+    color: var(--color-text);
+}
+
+.benefits-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text);
+}
+
+.benefits-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49 / 42);
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+}
+
+.benefits-text-about {
+    font-size: 18px;
+    line-height: 1,67;
+    letter-spacing: 0.02em;
+    color: var(--p-color);
+}
+
+.masters {
+    background-color: var(--first-bg-color);
+}
+
+.masters-text {
+
+}
+
+.masters-title {
+    
+}
+
+/* -------------------------------------------------------------FOOTER---------------------------------------------------------------------------- */
